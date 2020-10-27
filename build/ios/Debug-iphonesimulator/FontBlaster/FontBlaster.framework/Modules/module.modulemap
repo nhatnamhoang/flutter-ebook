@@ -1,0 +1,11 @@
+framework module FontBlaster {
+  umbrella header "FontBlaster-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module FontBlaster.Swift {
+    header "FontBlaster-Swift.h"
+    requires objc
+}

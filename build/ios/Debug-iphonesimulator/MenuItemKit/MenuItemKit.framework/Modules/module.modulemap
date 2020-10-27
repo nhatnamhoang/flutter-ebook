@@ -1,0 +1,11 @@
+framework module MenuItemKit {
+  umbrella header "MenuItemKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MenuItemKit.Swift {
+    header "MenuItemKit-Swift.h"
+    requires objc
+}

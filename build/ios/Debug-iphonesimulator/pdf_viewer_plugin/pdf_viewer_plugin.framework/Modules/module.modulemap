@@ -1,0 +1,6 @@
+framework module pdf_viewer_plugin {
+  umbrella header "pdf_viewer_plugin-umbrella.h"
+
+  export *
+  module * { export * }
+}
